@@ -1,0 +1,116 @@
+@media only screen and (max-width:950px) {
+    section {
+        width: 580px;
+    }
+    .hero .container {
+        width: 600px;
+    }
+    .hero .container p {
+        font-size: 26px;
+        padding: 25px 30px;
+    }
+    .rec2 {
+        left: 580px;
+    }
+    .message {
+        background: white;
+    }
+    .message .container {
+        background-image: url(../imgs/bodyBuilder.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .message .container p {
+        background: rgba(255, 255, 255, .7);
+        text-align: center;
+    }
+    .message .body {
+        display: none;
+    }
+    .message .arrow {
+        display: none;
+    }
+    .feedback {
+        background: #ffff;
+        height: auto;
+        overflow: hidden;
+        padding-top: 50px;
+        overflow: hidden;
+    }
+    .feedback .cool {
+        position: relative;
+        top: 0px;
+        margin-left: 60px;
+        float: none;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+        z-index: 40;
+    }
+    .feedback img {
+        width: 440px;
+        height: auto;
+        margin: 0 auto;
+    }
+    .feedback .container {
+        float: none;
+        display: block;
+        position: relative;
+        width: 580px;
+        margin: 0 auto;
+    }
+    .feedback .container h2 {
+        float: left;
+        font-size: 25px;
+        color: white;
+        margin-left: 50px;
+        /*width: 400px;
+    height: 55px;
+    background: #ca0000;
+    padding-top: 15px;
+    padding-left: 55px;
+    margin-bottom: 25px; */
+    }
+    .skewBackGround {
+        position: relative;
+        width: 320px;
+        padding: 20px 20px 40px 10px;
+        font-size: 20px;
+        position: relative;
+        color: #FFF;
+        background: #ca0000;
+        margin: 0 auto;
+        z-index: 30;
+        margin-bottom: 40px;
+    }
+    .skewBackGround:after {
+        content: " ";
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        background: #ca0000;
+        -webkit-transform-origin: bottom left;
+        transform-origin: bottom left;
+        -webkit-transform: skew(-30deg, 0deg);
+        transform: skew(-30deg, 0deg);
+    }
+    .feedback .container p {
+        float: left;
+        width: 80%;
+        margin-left: 10%;
+        text-align: center;
+    }
+    .footer .container {
+        padding: 10px 40px;
+        background-color: #f2f2f4;
+    }
+    .footer .container p {
+        font-size: 22px;
+        text-align: center;
+        line-height: 30px;
+    }
+}
