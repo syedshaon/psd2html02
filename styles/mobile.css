@@ -1,18 +1,18 @@
 @media only screen and (max-width:600px) {
     section {
-        width: 380px;
+        width: 350px;
     }
     .hero .container {
-        width: 400px;
+        width: 370px;
     }
     .hero .container p {
         font-size: 22px;
     }
     .rec2 {
-        left: 380px;
+        left: 350px;
     }
     .message .container {
-        width: 380px;
+        width: 370px;
     }
     .message .container p {
         background: rgba(255, 255, 255, .9);
@@ -24,21 +24,21 @@
         display: none;
     }
     .feedback .cool {
-        margin-left: 20px;
+        margin-left: 10px;
     }
     .feedback img {
-        width: 340px;
+        width: 330px;
         height: auto;
     }
     .feedback .container {
-        width: 380px;
+        width: 350px;
     }
     .feedback .container h2 {
         margin-left: 30px;
     }
     .skewBackGround {
         width: 280px;
-        left: -10px;
+        left: -15px;
     }
     .footer .container p {
         font-size: 20px;
