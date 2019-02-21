@@ -1,5 +1,6 @@
 ﻿body {
     background: black;
+    z-index: -11;
 }
 
 section {
@@ -7,6 +8,7 @@ section {
     margin: 0 auto;
     height: auto;
     background: white;
+    z-index: 1;
 }
 
 .hero {
@@ -84,8 +86,8 @@ section {
 
 .message .arrow {
     position: absolute;
-    top: 510px;
-    margin-left: -180px;
+    top: 520px;
+    margin-left: -220px;
     z-index: 10;
 }
 
@@ -95,38 +97,92 @@ section {
     overflow: hidden;
     padding-top: 50px;
     overflow: hidden;
-    position: relative;
 }
 
 .feedback .cool {
     position: absolute;
-    top: 10px;
-    margin-left: -10px;
+    top: 570px;
+    margin-left: -20px;
+    z-index: 11;
     -webkit-transform: rotate(-5deg);
     transform: rotate(-5deg);
-    z-index: 11;
+    z-index: 40;
+}
+
+.feedback img {
+    width: 280px;
+    height: auto;
 }
 
 .feedback .container {
     float: right;
-    width: 550px;
+    width: 600px;
     margin-right: 70px;
+    padding-bottom: 30px;
+    overflow: hidden;
+    position: relative;
 }
 
 .feedback .container h2 {
     float: left;
     font-size: 25px;
     color: white;
-    width: 400px;
+    margin-left: 50px;
+    /*width: 400px;
     height: 55px;
     background: #ca0000;
     padding-top: 15px;
     padding-left: 55px;
-    padding-bottom: 55px;
+    margin-bottom: 25px; */
+}
+
+.skewBackGround {
+    position: relative;
+    width: 320px;
+    padding: 20px 20px 40px 10px;
+    font-size: 20px;
+    position: relative;
+    color: #FFF;
+    background: #ca0000;
+    margin-left: 20px;
+    z-index: 30;
+}
+
+.skewBackGround:after {
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: #ca0000;
+    -webkit-transform-origin: bottom left;
+    transform-origin: bottom left;
+    -webkit-transform: skew(-30deg, 0deg);
+    transform: skew(-30deg, 0deg);
 }
 
 .feedback .container p {
     float: right;
-    margin-right: 70px;
-    margin-left: 55px;
+    margin-left: 65px;
+    font-size: 22px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.feedback .container p:nth-of-type(3) {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.footer .container {
+    padding: 30px 100px;
+    background-color: #f2f2f4;
+}
+
+.footer .container p {
+    font-size: 30px;
+    text-align: center;
 }
