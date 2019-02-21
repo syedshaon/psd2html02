@@ -1,2 +1,132 @@
 ﻿body {
+    background: black;
+}
+
+section {
+    width: 880px;
+    margin: 0 auto;
+    height: auto;
+    background: white;
+}
+
+.hero {
+    padding-top: 10px;
+}
+
+.hero .container {
+    width: 900px;
+    margin-left: -10px;
+    padding: 0 10px;
+    background: #bd0000;
+    height: auto;
+}
+
+.hero .container p {
+    font-size: 22px;
+    color: white;
+    padding: 25px 100px;
+    text-align: center;
+    font-family: monospace;
+}
+
+.rec1 {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 10px 10px 0;
+    border-color: transparent #bd0000 transparent transparent;
+    position: relative;
+    left: -10px;
+    top: 0px;
+    direction: inline;
+}
+
+.rec2 {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 10px 0 0;
+    border-color: #bd0000 transparent transparent transparent;
+    position: relative;
+    top: -10px;
+    left: 880px;
+    direction: inline;
+}
+
+.message {
+    background: #faf9f7;
+    height: auto;
+    overflow: hidden;
+    padding-top: 20px;
+    margin-top: -20px;
+}
+
+.message .container {
+    width: 580px;
+    height: auto;
+    float: left;
+}
+
+.message .container p {
+    font-size: 22px;
+    color: black;
+    padding: 10px 60px;
+    text-align: left;
+    font-family: serif;
+    white-space: pre-line;
+}
+
+.message .body {
+    position: absolute;
+    top: 80px;
+    margin-left: 70px;
+}
+
+.message .arrow {
+    position: absolute;
+    top: 510px;
+    margin-left: -180px;
+    z-index: 10;
+}
+
+.feedback {
+    background: #ffff;
+    height: auto;
+    overflow: hidden;
+    padding-top: 50px;
+    overflow: hidden;
+    position: relative;
+}
+
+.feedback .cool {
+    position: absolute;
+    top: 10px;
+    margin-left: -10px;
+    -webkit-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+    z-index: 11;
+}
+
+.feedback .container {
+    float: right;
+    width: 550px;
+    margin-right: 70px;
+}
+
+.feedback .container h2 {
+    float: left;
+    font-size: 25px;
+    color: white;
+    width: 400px;
+    height: 55px;
+    background: #ca0000;
+    padding-top: 15px;
+    padding-left: 55px;
+    padding-bottom: 55px;
+}
+
+.feedback .container p {
+    float: right;
+    margin-right: 70px;
+    margin-left: 55px;
 }
